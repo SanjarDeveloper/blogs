@@ -1,0 +1,155 @@
+:root {
+    font-size: 18px;
+    color: #444
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: red;
+}
+
+.navbar {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1px dotted #ccc;
+    padding: 10px;
+}
+
+.nav a{
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.intro-msg {
+    padding: 100px 0 30px 0;
+    font-size: 2rem;
+    max-width: 60%;
+}
+
+.featured {
+    display: inline-block;
+    padding: 10px 20px;
+    background: tomato;
+    color: aliceblue;
+}
+
+.form {
+    margin: 50px 200px;
+}
+
+.input {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    font-size: 1.3rem;
+    font-family: inherit;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: tomato;
+    color: #fff;
+    font-size: 1.3rem;
+    border: none;
+    padding: 10px 20px;
+    font-family: inherit;
+}
+
+.blog-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.blog {
+    font-size: 1.3rem;
+}
+
+
+.update {
+    display: inline-block;
+    padding: 5px 10px;
+    background: green;
+    color: white;
+    margin-right: 10px;
+}
+
+.delete {
+    display: inline-block;
+    padding: 5px 10px;
+    background: tomato;
+    color: white;
+}
+
+.error {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid red;
+    font-size: 1.2rem;
+    color: red;
+}
+
+.success {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid green;
+    font-size: 1.2rem;
+    color: green;
+}
+
+.form {
+    border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .btn-form {
+    width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  }
+
+  .btn-form:hover {
+    background-color: #45a049;
+  }

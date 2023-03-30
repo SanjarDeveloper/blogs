@@ -1,0 +1,15 @@
+extends layout.pug 
+
+block content 
+    div.container
+        h1 All Blogs 
+
+        if deleted
+            p.success Deleted
+
+        each blog in blogs
+            div.blog-wrapper
+                a.blog(href=`/blogs/${ blog.id }`) #{ blog.title }
+                div.options
+                    a.update(href=`/blogs/update/${ blog.id }`) Update
+                    a.delete(href=`/blogs/delete/${ blog.id }`) Delete
