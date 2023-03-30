@@ -6,7 +6,7 @@ To run the application locally please follow instructions below:
 
 1. Clone the repository
 ```bash
-git clone [repository link]
+git clone https://github.com/SanjarDeveloper/blogs.git
 ```
 
 2. Install dependencies
@@ -25,4 +25,7 @@ node app
  -pug.js
 
 ### Web application repository on github 
-[link to github repo]
+[link to github repo] https://github.com/SanjarDeveloper/blogs.git
+
+### Web application on Glitch
+[link to app on Glitch] https://quasar-torch-alyssum.glitch.me/
